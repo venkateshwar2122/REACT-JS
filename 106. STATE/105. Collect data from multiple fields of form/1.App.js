@@ -6,7 +6,6 @@ const App=()=>{
 
   let fun=(e)=>{
     setObj({...obj,[e.target.name]:e.target.value})            /* [e.target.name] is in brackets because we are setting key values dynamically */
-    console.log(obj)
   }
 
   let add=()=>{ 
